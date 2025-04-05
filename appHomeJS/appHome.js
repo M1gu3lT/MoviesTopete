@@ -4,20 +4,26 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 1,
             titulo: "Deadpool",
-            imagen: "imagenesP/deadpool.webp",
+            imagen: "imagenesP/deadpool3.webp",
             descripcion: "Un antihéroe irreverente"
         },
         {
             id: 2,
             titulo: "Invencible",
-            imagen: "imagenesP/invencible.webp",
+            imagen: "imagenesP/invencible2.webp",
             descripcion: "Héroe que siempre es vencido"
         },
         {
             id: 3,
             titulo: "Spoderman",
-            imagen: "imagenesP/spoderman.webp",
+            imagen: "imagenesP/spiderman.webp",
             descripcion: "El hombre que araña"
+        },
+        {
+            id: 4,
+            titulo: "interstellar",
+            imagen: "imagenesP/interstellar.webp",
+            descripcion:"Ambientada en un futuro distópico donde la humanidad está luchando por sobrevivir"
         }
 
     ];
