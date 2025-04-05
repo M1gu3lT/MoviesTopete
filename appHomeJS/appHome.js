@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 3,
-            titulo: "Spoderman",
+            titulo: "Spiderman",
             imagen: "imagenesP/spiderman.webp",
             descripcion: "El hombre que araña"
         },
