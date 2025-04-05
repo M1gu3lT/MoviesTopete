@@ -1,0 +1,22 @@
+
+
+.LogoLogin{
+    height: 20rem;
+    margin: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+p{
+    color: rgb(2, 20, 20);
+}
+
+.inputsUser{
+    width: 100%;
+}
+
+.loginRecordar{
+    font-size: 0.9rem;
+}
+
+
