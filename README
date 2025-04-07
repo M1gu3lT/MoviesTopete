@@ -1,27 +1,75 @@
-# MoviesTopete
+MoviesTopete
 
-## Descripción
+##Descripción
+MoviesTopete es una aplicación web diseñada para gestionar películas, con una interfaz intuitiva y eficiente. Permite a los usuarios iniciar sesión en la plataforma, visualizar estrenos, explorar géneros y administrar una lista de películas favoritas. La aplicación es completamente responsiva y está optimizada para diversos tamaños de pantalla, garantizando una experiencia fluida en dispositivos móviles y de escritorio.
 
-MoviesTopete es una aplicación web diseñada para gestionar películas, con una interfaz simple y funcional. 
-Cuenta con un inicio de sesión donde los usuarios pueden acceder a la plataforma, ver estrenos, navegar por géneros y administrar su lista de películas favoritas. 
-La aplicación es responsiva y optimizada para diversos tamaños de pantalla.
-
-## Capturas de pantalla
-
-A continuación, se muestran algunas capturas de pantalla de la aplicación en funcionamiento:
+##Capturas de pantalla
+A continuación se muestran algunas capturas de pantalla de la aplicación en funcionamiento:
 
 ![Evidencia1](https://github.com/M1gu3lT/MoviesTopete/blob/main/evidenci1.webp.png?raw=true)
 ![Evidencia2](https://github.com/M1gu3lT/MoviesTopete/blob/main/evidencia2.webp.png?raw=true)
 ![Evidencia3](https://github.com/M1gu3lT/MoviesTopete/blob/main/evidencia3.webp.png?raw=true)
 
 
-## Mockup de la idea inicial
+##Mockup de la idea inicial
 
 
-## Instrucciones de uso
+##Instrucciones de uso
+Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
-Para usar este proyecto, sigue los siguientes pasos:
+Clona el repositorio a tu entorno local:
 
-1. Clona el repositorio a tu máquina local:
-   ```bash
-   git clone https://github.com/M1gu3lT/MoviesTopete.git
+bash
+Copiar
+git clone https://github.com/M1gu3lT/MoviesTopete.git
+
+
+#Descripción técnica
+La aplicación cuenta con una barra de navegación que incluye las siguientes secciones:
+
+Home: Redirige al usuario a la página principal.
+
+Género: Permite buscar películas por género.
+
+Series: Muestra las series disponibles en la plataforma.
+
+Películas: Muestra las películas disponibles.
+
+Configuración: Acceso a la configuración del usuario.
+
+Además, se implementó un carrusel de imágenes que presenta los estrenos más recientes.
+
+La aplicación también incluye una barra de patrocinadores (aunque no cuenta con patrocinadores reales en este momento).
+
+Cada película está representada por una tarjeta (card), la cual incluye una sección de detalles donde se pueden ver más información sobre la película y un botón para ocultarla de la página principal. El propósito del botón es permitir a los usuarios ocultar una película sin eliminarla permanentemente.
+
+Al final de la página, se encuentra un footer con los enlaces a las redes sociales del desarrollador y un botón para cerrar sesión, que redirige al usuario de vuelta a la pantalla de login.
+
+El formulario de login cuenta con:
+
+Un checkbox para mostrar u ocultar la contraseña.
+
+Un botón de "Iniciar sesión" que genera una alerta si alguno de los campos está vacío.
+
+Un checkbox para recordar al usuario.
+
+Enlaces de texto para recuperar la contraseña o crear una nueva cuenta.
+
+##Problemas conocidos
+Las tarjetas de las películas aún no están alineadas de manera uniforme.
+
+La sección de patrocinadores no se visualiza correctamente.
+
+La barra de navegación no redirige correctamente a las secciones correspondientes.
+
+Las películas en las tarjetas no se ocultan al hacer clic en el botón correspondiente.
+
+##Retrospectiva
+¿Qué hice bien?
+Se logró crear una página web funcional con un diseño atractivo y fácil de usar.
+
+¿Qué no salió bien?
+Los problemas mencionados en la sección de "Problemas conocidos" aún están pendientes de solución.
+
+¿Qué puedo hacer diferente?
+Corregir los problemas actuales, como la alineación de las tarjetas, la funcionalidad de la barra de navegación y la opción de ocultar películas. También es importante abordar el diseño de las secciones de patrocinadores para que se muestren correctamente.
